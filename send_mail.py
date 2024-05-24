@@ -10,9 +10,9 @@ def cr_api():
     return ''.join(random.choice(characters) for _ in range(40))
 api = f'VH-{cr_api()}'
 def send_api():
-    sender_email = "vanhongapi@gmail.com"
-    sender_password = "lqxv vjhk kjjz zopn"
-    receiver_email = "2fa.remix@gmail.com"
+    sender_email = "?"
+    sender_password = "?"
+    receiver_email = "?"
     message = MIMEMultipart()
     message["From"] = sender_email
     message["To"] = receiver_email
